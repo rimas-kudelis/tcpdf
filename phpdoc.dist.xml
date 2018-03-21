@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
+  <title>TCPDF API documentation</title>
   <parser>
     <target>docs</target>
   </parser>
@@ -15,12 +16,14 @@
     <ignore>vendor/tecnickcom/tcpdf/tools/*</ignore>
     -->
   </files>
+  <!--
   <logging>
     <level>quiet</level>
   </logging>
+  -->
   <!--
   <transformations>
-    <template name="zend" />
+    <template name="clean" />
   </transformations>
   -->
 </phpdoc>

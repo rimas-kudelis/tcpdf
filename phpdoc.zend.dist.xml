@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <title>TCPDF API documentation</title>
+  <parser>
+    <target>docs/alt</target>
+  </parser>
+  <transformer>
+    <target>docs/alt</target>
+  </transformer>
+  <files>
+    <file>vendor/tecnickcom/tcpdf/*.php</file>
+    <!--
+    <directory>vendor/tecnickcom/tcpdf</directory>
+    <ignore>vendor/tecnickcom/tcpdf/examples/*</ignore>
+    <ignore>vendor/tecnickcom/tcpdf/fonts/*</ignore>
+    <ignore>vendor/tecnickcom/tcpdf/tools/*</ignore>
+    -->
+  </files>
+  <!--
+  <logging>
+    <level>quiet</level>
+  </logging>
+  -->
+  <transformations>
+    <template name="zend" />
+  </transformations>
+</phpdoc>
