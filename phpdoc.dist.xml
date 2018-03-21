@@ -2,7 +2,7 @@
 <phpdoc>
   <title>TCPDF API documentation</title>
   <parser>
-    <target>docs</target>
+    <target>cache</target>
   </parser>
   <transformer>
     <target>docs</target>
