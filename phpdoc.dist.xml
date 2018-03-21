@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <parser>
+    <target>docs</target>
+  </parser>
+  <transformer>
+    <target>docs</target>
+  </transformer>
+  <files>
+    <file>vendor/tecnickcom/tcpdf/*.php</file>
+    <!--
+    <directory>vendor/tecnickcom/tcpdf</directory>
+    <ignore>vendor/tecnickcom/tcpdf/examples/*</ignore>
+    <ignore>vendor/tecnickcom/tcpdf/fonts/*</ignore>
+    <ignore>vendor/tecnickcom/tcpdf/tools/*</ignore>
+    -->
+  </files>
+  <logging>
+    <level>quiet</level>
+  </logging>
+  <!--
+  <transformations>
+    <template name="zend" />
+  </transformations>
+  -->
+</phpdoc>
